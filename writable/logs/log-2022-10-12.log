@@ -1,0 +1,732 @@
+ERROR - 2022-10-12 15:06:14 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:06:14 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:06:19 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:06:19 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:06:24 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:06:24 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:06:29 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:06:29 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:06:34 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:06:34 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:06:39 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:06:39 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:06:44 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:06:44 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:06:49 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:06:49 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:06:54 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:06:54 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:06:59 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:06:59 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:07:04 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:07:04 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:07:09 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:07:09 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:07:14 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:07:14 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:07:19 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:07:19 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:07:24 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:07:24 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:07:29 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:07:29 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:07:34 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:07:34 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:07:39 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:07:39 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:07:44 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:07:44 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:07:49 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:07:49 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:07:54 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:07:54 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:07:59 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:07:59 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:08:04 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:08:04 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:08:09 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:08:09 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:08:15 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:08:15 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:08:19 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:08:19 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:08:24 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:08:24 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:08:29 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:08:29 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:08:34 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:08:34 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:08:39 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:08:39 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:08:44 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:08:44 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:08:49 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:08:49 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:08:59 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:08:59 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:09:04 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:09:04 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:09:09 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:09:09 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:09:15 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:09:15 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:09:20 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:09:20 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:09:24 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:09:24 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:09:29 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:09:29 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:09:34 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:09:34 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:09:40 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:09:40 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:09:44 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:09:44 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:09:49 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:09:49 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:09:54 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:09:54 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:09:59 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:09:59 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:10:04 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:10:04 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:10:09 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:10:09 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:10:14 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:10:14 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:10:20 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:10:20 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:10:24 --> Unknown column 'rtb.id' in 'where clause'
+CRITICAL - 2022-10-12 15:10:24 --> Unknown column 'rtb.id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:10:29 --> Unknown column 'rtb.due_date' in 'where clause'
+CRITICAL - 2022-10-12 15:10:29 --> Unknown column 'rtb.due_date' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:10:35 --> Unknown column 'rtb.due_date' in 'where clause'
+CRITICAL - 2022-10-12 15:10:35 --> Unknown column 'rtb.due_date' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:10:39 --> Unknown column 'rtb.due_date' in 'where clause'
+CRITICAL - 2022-10-12 15:10:39 --> Unknown column 'rtb.due_date' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:10:45 --> Unknown column 'rtb.due_date' in 'where clause'
+CRITICAL - 2022-10-12 15:10:45 --> Unknown column 'rtb.due_date' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:10:49 --> Unknown column 'rtb.due_date' in 'where clause'
+CRITICAL - 2022-10-12 15:10:49 --> Unknown column 'rtb.due_date' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:10:55 --> Unknown column 'rtb.due_date' in 'where clause'
+CRITICAL - 2022-10-12 15:10:55 --> Unknown column 'rtb.due_date' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:10:59 --> Unknown column 'rtb.due_date' in 'where clause'
+CRITICAL - 2022-10-12 15:10:59 --> Unknown column 'rtb.due_date' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-12 15:11:05 --> Unknown column 'rtb.due_date' in 'where clause'
+CRITICAL - 2022-10-12 15:11:05 --> Unknown column 'rtb.due_date' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(95): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('1', 'hospital')
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-12 16:44:00 --> Undefined index: June
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/RequestModel.php(347): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/X...', 347, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Views/webapp/dashboard.php(168): App\Models\RequestModel->getReportBreakdownForUser()
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/View/View.php(210): include('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Common.php(1089): CodeIgniter\View\View->render('webapp/dashboar...', Array, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Views/webapp/template.php(13): view('webapp/dashboar...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/View/View.php(210): include('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Common.php(1089): CodeIgniter\View\View->render('webapp/template', Array, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/DashboardController.php(62): view('webapp/template', Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\DashboardController->index()
+#11 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#12 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-10-12 16:51:42 --> Column 'created_at' in field list is ambiguous
+CRITICAL - 2022-10-12 16:51:42 --> Column 'created_at' in field list is ambiguous
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/RequestModel.php(359): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Views/webapp/dashboard.php(168): App\Models\RequestModel->getReportBreakdownForUser()
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/View/View.php(210): include('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Common.php(1089): CodeIgniter\View\View->render('webapp/dashboar...', Array, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Views/webapp/template.php(13): view('webapp/dashboar...', Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/View/View.php(210): include('/Applications/X...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Common.php(1089): CodeIgniter\View\View->render('webapp/template', Array, true)
+#12 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/DashboardController.php(62): view('webapp/template', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\DashboardController->index()
+#14 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#15 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}

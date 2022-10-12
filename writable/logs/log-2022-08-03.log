@@ -1,0 +1,96 @@
+ERROR - 2022-08-03 12:53:30 --> Not unique table/alias: 'users_tbl'
+CRITICAL - 2022-08-03 12:53:30 --> Not unique table/alias: 'users_tbl'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/SendOutgoingEmailController.php(376): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/DashboardController.php(144): App\Controllers\SendOutgoingEmailController->sendOutNewBloodRequestEmail()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\DashboardController->processRequestForBloodDonation()
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-03 12:54:45 --> Not unique table/alias: 'users_tbl'
+CRITICAL - 2022-08-03 12:54:45 --> Not unique table/alias: 'users_tbl'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/SendOutgoingEmailController.php(376): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/DashboardController.php(144): App\Controllers\SendOutgoingEmailController->sendOutNewBloodRequestEmail()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\DashboardController->processRequestForBloodDonation()
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-03 12:55:55 --> Not unique table/alias: 'users_tbl'
+CRITICAL - 2022-08-03 12:55:55 --> Not unique table/alias: 'users_tbl'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/SendOutgoingEmailController.php(377): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/DashboardController.php(144): App\Controllers\SendOutgoingEmailController->sendOutNewBloodRequestEmail()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\DashboardController->processRequestForBloodDonation()
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-03 12:56:51 --> Not unique table/alias: 'users_tbl'
+CRITICAL - 2022-08-03 12:56:51 --> Not unique table/alias: 'users_tbl'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/SendOutgoingEmailController.php(377): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/DashboardController.php(144): App\Controllers\SendOutgoingEmailController->sendOutNewBloodRequestEmail()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\DashboardController->processRequestForBloodDonation()
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-03 12:57:04 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): SSL: Undefined error: 0
+ERROR - 2022-08-03 12:57:04 --> Email: sendWithSmtp throwed fwrite(): send of 12 bytes failed with errno=32 Broken pipe
+ERROR - 2022-08-03 12:57:42 --> Not unique table/alias: 'users_tbl'
+CRITICAL - 2022-08-03 12:57:42 --> Not unique table/alias: 'users_tbl'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/SendOutgoingEmailController.php(377): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/DashboardController.php(144): App\Controllers\SendOutgoingEmailController->sendOutNewBloodRequestEmail()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\DashboardController->processRequestForBloodDonation()
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-03 12:57:54 --> Not unique table/alias: 'users_tbl'
+CRITICAL - 2022-08-03 12:57:54 --> Not unique table/alias: 'users_tbl'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/SendOutgoingEmailController.php(377): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/DashboardController.php(144): App\Controllers\SendOutgoingEmailController->sendOutNewBloodRequestEmail()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\DashboardController->processRequestForBloodDonation()
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-03 13:26:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`auth_id`)
+WHERE `requests_tbl`.`id` = '19'' at line 3
+CRITICAL - 2022-08-03 13:26:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`auth_id`)
+WHERE `requests_tbl`.`id` = '19'' at line 3
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `auth_tb...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `auth_tb...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `auth_tb...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `auth_tb...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/SendOutgoingEmailController.php(412): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/DashboardController.php(242): App\Controllers\SendOutgoingEmailController->sentOutEmailForOfferSentByBloodBank('5', '19')
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\DashboardController->sendRequestOfferForWeb()
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-03 13:29:26 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): SSL: Undefined error: 0

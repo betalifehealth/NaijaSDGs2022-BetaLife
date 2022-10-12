@@ -1,0 +1,410 @@
+CRITICAL - 2022-09-29 10:24:58 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$where
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/BloodGroupStock.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/X...', 92, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/BloodGroupStockController.php(63): App\Models\BloodGroupStock->updateStockInformation('6', 'blood-bank', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\BloodGroupStockController->addToStock()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BloodGroupStockController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 10:37:20 --> count(): Parameter must be an array or an object that implements Countable
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Views/webapp/stock-history.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/Applications/X...', 23, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/View/View.php(210): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Common.php(1089): CodeIgniter\View\View->render('webapp/stock-hi...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Views/webapp/template.php(13): view('webapp/stock-hi...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/View/View.php(210): include('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Common.php(1089): CodeIgniter\View\View->render('webapp/template', Array, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/BloodGroupStockController.php(91): view('webapp/template', Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\BloodGroupStockController->stockHistory()
+#10 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BloodGroupStockController))
+#11 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-09-29 10:38:19 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', '/Applications/X...', 28, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Views/webapp/stock-history.php(28): number_format('Added 5 A- to t...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/View/View.php(210): include('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Common.php(1089): CodeIgniter\View\View->render('webapp/stock-hi...', Array, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Views/webapp/template.php(13): view('webapp/stock-hi...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/View/View.php(210): include('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Common.php(1089): CodeIgniter\View\View->render('webapp/template', Array, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/BloodGroupStockController.php(91): view('webapp/template', Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\BloodGroupStockController->stockHistory()
+#11 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BloodGroupStockController))
+#12 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-09-29 14:17:58 --> Unknown column 'auth_id' in 'where clause'
+CRITICAL - 2022-09-29 14:17:58 --> Unknown column 'auth_id' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/BaseController.php(911): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Views/webapp/browse-blood-requests.php(77): App\Controllers\BaseController->bloodInventoryDetails('5', 'blood-bank', 'A+')
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/View/View.php(210): include('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Common.php(1089): CodeIgniter\View\View->render('webapp/browse-b...', Array, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Views/webapp/template.php(13): view('webapp/browse-b...', Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/View/View.php(210): include('/Applications/X...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#12 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Common.php(1089): CodeIgniter\View\View->render('webapp/template', Array, true)
+#13 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/DashboardController.php(172): view('webapp/template', Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\DashboardController->fetchAllNearByRequestsForWeb()
+#15 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#16 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#18 {main}
+CRITICAL - 2022-09-29 16:52:12 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/Applications/X...', 150, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(150): count(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(31): App\Models\Notifications->getNotifications('5', 'blood-bank')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->getNotifications()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-29 16:52:14 --> Trying to get property 'name' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 107, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:52:15 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/Applications/X...', 150, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(150): count(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(31): App\Models\Notifications->getNotifications('5', 'blood-bank')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->getNotifications()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-29 16:52:18 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/Applications/X...', 150, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(150): count(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(31): App\Models\Notifications->getNotifications('5', 'blood-bank')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->getNotifications()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-29 16:52:19 --> Trying to get property 'name' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 107, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:52:21 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/Applications/X...', 150, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(150): count(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(31): App\Models\Notifications->getNotifications('5', 'blood-bank')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->getNotifications()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-29 16:52:24 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/Applications/X...', 150, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(150): count(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(31): App\Models\Notifications->getNotifications('5', 'blood-bank')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->getNotifications()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-29 16:52:24 --> Trying to get property 'name' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 107, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:52:27 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/Applications/X...', 150, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(150): count(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(31): App\Models\Notifications->getNotifications('5', 'blood-bank')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->getNotifications()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-29 16:52:29 --> Trying to get property 'name' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 107, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:52:30 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/Applications/X...', 150, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(150): count(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(31): App\Models\Notifications->getNotifications('5', 'blood-bank')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->getNotifications()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-29 16:52:33 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/Applications/X...', 150, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(150): count(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(31): App\Models\Notifications->getNotifications('5', 'blood-bank')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->getNotifications()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-29 16:52:34 --> Trying to get property 'name' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 107, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:52:36 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/Applications/X...', 150, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(150): count(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(31): App\Models\Notifications->getNotifications('5', 'blood-bank')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->getNotifications()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-29 16:52:39 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/Applications/X...', 150, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(150): count(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(31): App\Models\Notifications->getNotifications('5', 'blood-bank')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->getNotifications()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-29 16:52:39 --> Trying to get property 'name' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 107, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:52:42 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/Applications/X...', 150, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(150): count(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(31): App\Models\Notifications->getNotifications('5', 'blood-bank')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->getNotifications()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-29 16:52:44 --> Trying to get property 'name' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 107, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:52:45 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/Applications/X...', 150, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(150): count(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(31): App\Models\Notifications->getNotifications('5', 'blood-bank')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->getNotifications()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-29 16:52:48 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/Applications/X...', 150, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(150): count(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(31): App\Models\Notifications->getNotifications('5', 'blood-bank')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->getNotifications()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-29 16:52:49 --> Trying to get property 'name' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 107, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:52:51 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/Applications/X...', 150, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(150): count(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(31): App\Models\Notifications->getNotifications('5', 'blood-bank')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->getNotifications()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-29 16:52:54 --> Trying to get property 'name' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 107, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:52:59 --> Trying to get property 'name' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 107, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:53:04 --> Trying to get property 'name' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 107, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:53:09 --> Trying to get property 'name' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 107, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:53:14 --> Trying to get property 'name' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 107, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:53:19 --> Trying to get property 'name' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 107, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:53:24 --> Trying to get property 'name' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 107, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:53:29 --> Trying to get property 'name' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 107, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:54:59 --> Trying to get property 'name' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 107, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:55:04 --> Trying to get property 'name' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 107, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:55:09 --> Trying to get property 'name' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 107, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:55:34 --> Trying to get property 'name' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 100, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:55:39 --> Trying to get property 'id' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 100, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:55:44 --> Trying to get property 'id' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 100, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:55:49 --> Trying to get property 'id' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 100, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:55:54 --> Trying to get property 'id' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 100, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:56:00 --> Trying to get property 'id' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 100, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:56:04 --> Undefined offset: 0
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Applications/X...', 100, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:56:09 --> Undefined offset: 0
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Applications/X...', 100, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-29 16:56:14 --> Undefined offset: 0
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Applications/X...', 100, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(26): App\Models\Notifications->setNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

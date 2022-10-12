@@ -1,0 +1,43 @@
+CRITICAL - 2022-09-30 06:43:56 --> date() expects parameter 2 to be int, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date() expects ...', '/Applications/X...', 163, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(163): date('Y-m-d H:i:s', 'A new request h...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(31): App\Models\Notifications->getNotifications('5', 'blood-bank')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->getNotifications()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-30 06:44:21 --> date() expects parameter 2 to be int, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date() expects ...', '/Applications/X...', 163, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(163): date('Y-m-d H:i:s', 'A new request h...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(31): App\Models\Notifications->getNotifications('5', 'blood-bank')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->getNotifications()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-30 06:45:02 --> Call to undefined function get_instance()
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(163): relative_time('2022-09-30 06:4...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(31): App\Models\Notifications->getNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->getNotifications()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-30 06:45:20 --> Call to undefined function get_instance()
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(163): relative_time('2022-09-30 06:4...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(31): App\Models\Notifications->getNotifications('5', 'blood-bank')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->getNotifications()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-30 06:57:11 --> Undefined property: App\Controllers\BaseController::$load
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/BaseController.php(921): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/X...', 921, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/Notifications.php(164): App\Controllers\BaseController->timespan('2022-09-30 06:5...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/NotificationsController.php(31): App\Models\Notifications->getNotifications('5', 'blood-bank')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\NotificationsController->getNotifications()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationsController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

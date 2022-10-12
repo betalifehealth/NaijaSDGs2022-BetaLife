@@ -1,0 +1,65 @@
+CRITICAL - 2022-08-16 19:21:38 --> Undefined property: stdClass::$body
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Views/admin/admin-edit-post.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/X...', 22, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/View/View.php(210): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Common.php(1089): CodeIgniter\View\View->render('admin/admin-edi...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Views/admin/admin-template.php(13): view('admin/admin-edi...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/View/View.php(210): include('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Common.php(1089): CodeIgniter\View\View->render('admin/admin-tem...', Array, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/AdministratorsController.php(528): view('admin/admin-tem...', Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\AdministratorsController->editPostForm()
+#10 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorsController))
+#11 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-08-16 22:54:12 --> File not found: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Images/Handlers/BaseHandler.php(148): CodeIgniter\Files\File->__construct('/Applications/X...', true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/BaseController.php(319): CodeIgniter\Images\Handlers\BaseHandler->withFile('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/AdministratorsController.php(580): App\Controllers\BaseController->moveLogoFileForAccount('wp_image', 'post')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\AdministratorsController->editPost()
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorsController))
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 22:54:21 --> File not found: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Images/Handlers/BaseHandler.php(148): CodeIgniter\Files\File->__construct('/Applications/X...', true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/BaseController.php(319): CodeIgniter\Images\Handlers\BaseHandler->withFile('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/AdministratorsController.php(580): App\Controllers\BaseController->moveLogoFileForAccount('wp_image', 'post')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\AdministratorsController->editPost()
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorsController))
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 22:58:21 --> File not found: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Images/Handlers/BaseHandler.php(148): CodeIgniter\Files\File->__construct('/Applications/X...', true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/BaseController.php(319): CodeIgniter\Images\Handlers\BaseHandler->withFile('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/AdministratorsController.php(580): App\Controllers\BaseController->moveLogoFileForAccount('wp_image', 'post')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\AdministratorsController->editPost()
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorsController))
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 22:59:51 --> File not found: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Images/Handlers/BaseHandler.php(148): CodeIgniter\Files\File->__construct('/Applications/X...', true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/BaseController.php(319): CodeIgniter\Images\Handlers\BaseHandler->withFile('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/AdministratorsController.php(580): App\Controllers\BaseController->moveLogoFileForAccount('wp_image', 'post')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\AdministratorsController->editPost()
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorsController))
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 23:00:57 --> File not found: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Images/Handlers/BaseHandler.php(148): CodeIgniter\Files\File->__construct('/Applications/X...', true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/BaseController.php(319): CodeIgniter\Images\Handlers\BaseHandler->withFile('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/AdministratorsController.php(580): App\Controllers\BaseController->moveLogoFileForAccount('wp_image', 'post')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\AdministratorsController->editPost()
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorsController))
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

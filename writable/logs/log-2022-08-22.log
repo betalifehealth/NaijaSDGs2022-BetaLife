@@ -1,0 +1,27 @@
+CRITICAL - 2022-08-22 12:29:33 --> Undefined property: stdClass::$amount
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/WalletModel.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/X...', 80, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/BloodBankModel.php(266): App\Models\WalletModel->creditBloodBankWallet('5', '20000.0000')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/DashboardController.php(608): App\Models\BloodBankModel->confirmDeliveryMade('22', '8104')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\DashboardController->verifyDeliveryOTPInformation()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-22 12:29:43 --> Undefined property: stdClass::$amount
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/WalletModel.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/X...', 80, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/BloodBankModel.php(266): App\Models\WalletModel->creditBloodBankWallet('5', '20000.0000')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/DashboardController.php(608): App\Models\BloodBankModel->confirmDeliveryMade('22', '8104')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\DashboardController->verifyDeliveryOTPInformation()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-22 12:32:26 --> Undefined property: stdClass::$amount
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/WalletModel.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Applications/X...', 80, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/BloodBankModel.php(266): App\Models\WalletModel->creditBloodBankWallet('5', '20000.0000')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/DashboardController.php(608): App\Models\BloodBankModel->confirmDeliveryMade('22', '8104')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\DashboardController->verifyDeliveryOTPInformation()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,306 @@
+CRITICAL - 2022-08-17 06:59:36 --> File not found: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Images/Handlers/BaseHandler.php(148): CodeIgniter\Files\File->__construct('/Applications/X...', true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/BaseController.php(321): CodeIgniter\Images\Handlers\BaseHandler->withFile('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/AdministratorsController.php(580): App\Controllers\BaseController->moveLogoFileForAccount('wp_image', 'post')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\AdministratorsController->editPost()
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorsController))
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-17 07:01:20 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Images/Handlers/GDHandler.php(245): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/BaseController.php(323): CodeIgniter\Images\Handlers\GDHandler->save('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/AdministratorsController.php(580): App\Controllers\BaseController->moveLogoFileForAccount('wp_image', 'post')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\AdministratorsController->editPost()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorsController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-17 07:01:42 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Images/Handlers/GDHandler.php(245): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/BaseController.php(323): CodeIgniter\Images\Handlers\GDHandler->save('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/AdministratorsController.php(580): App\Controllers\BaseController->moveLogoFileForAccount('wp_image', 'post')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\AdministratorsController->editPost()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorsController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-17 07:03:11 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Images/Handlers/GDHandler.php(255): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/BaseController.php(323): CodeIgniter\Images\Handlers\GDHandler->save('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/AdministratorsController.php(580): App\Controllers\BaseController->moveLogoFileForAccount('wp_image', 'post')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\AdministratorsController->editPost()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorsController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-17 07:03:22 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Images/Handlers/GDHandler.php(255): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/BaseController.php(323): CodeIgniter\Images\Handlers\GDHandler->save('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/AdministratorsController.php(580): App\Controllers\BaseController->moveLogoFileForAccount('wp_image', 'post')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\AdministratorsController->editPost()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorsController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-17 07:23:22 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Images/Handlers/GDHandler.php(255): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/BaseController.php(323): CodeIgniter\Images\Handlers\GDHandler->save('./uploads/image...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/AdministratorsController.php(580): App\Controllers\BaseController->moveLogoFileForAccount('wp_image', 'post')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\AdministratorsController->editPost()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorsController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-17 07:23:32 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Images/Handlers/GDHandler.php(245): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/BaseController.php(323): CodeIgniter\Images\Handlers\GDHandler->save('./uploads/image...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/AdministratorsController.php(580): App\Controllers\BaseController->moveLogoFileForAccount('wp_image', 'post')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\AdministratorsController->editPost()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorsController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-08-17 15:23:22 --> Unknown column 'pending' in 'where clause'
+CRITICAL - 2022-08-17 15:23:22 --> Unknown column 'pending' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT request_...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT request_...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT request_...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/HospitalModel.php(585): CodeIgniter\Database\BaseConnection->query('SELECT request_...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/DashboardController.php(758): App\Models\HospitalModel->areThereNewOffersSinceLastChecked('21', 1660746202)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\DashboardController->checkNewOfferFromTime()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-17 15:23:27 --> Unknown column 'pending' in 'where clause'
+CRITICAL - 2022-08-17 15:23:27 --> Unknown column 'pending' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT request_...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT request_...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT request_...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/HospitalModel.php(585): CodeIgniter\Database\BaseConnection->query('SELECT request_...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/DashboardController.php(758): App\Models\HospitalModel->areThereNewOffersSinceLastChecked('21', 1660746207)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\DashboardController->checkNewOfferFromTime()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-17 15:23:32 --> Unknown column 'pending' in 'where clause'
+CRITICAL - 2022-08-17 15:23:32 --> Unknown column 'pending' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT request_...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT request_...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT request_...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/HospitalModel.php(585): CodeIgniter\Database\BaseConnection->query('SELECT request_...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/DashboardController.php(758): App\Models\HospitalModel->areThereNewOffersSinceLastChecked('21', 1660746212)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\DashboardController->checkNewOfferFromTime()
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-17 20:38:20 --> Trying to get property 'status' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/BaseController.php(980): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 980, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/AuthController.php(377): App\Controllers\BaseController->sendOutSmsWithAfricaTalking('+2349075915873', 'Your registrati...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\AuthController->processUserRegistration()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-17 20:38:20 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "{0}". in /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-17 20:38:59 --> Trying to get property 'status' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/BaseController.php(980): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 980, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/AuthController.php(377): App\Controllers\BaseController->sendOutSmsWithAfricaTalking('+2349075915873', 'Your registrati...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\AuthController->processUserRegistration()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-17 20:38:59 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "{0}". in /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-17 20:41:33 --> Trying to get property 'status' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/BaseController.php(977): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 977, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/AuthController.php(377): App\Controllers\BaseController->sendOutSmsWithAfricaTalking('+2349075915873', 'Your registrati...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\AuthController->processUserRegistration()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-17 20:41:33 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "{0}". in /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-17 20:43:14 --> Trying to get property 'status' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/BaseController.php(980): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 980, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/AuthController.php(377): App\Controllers\BaseController->sendOutSmsWithAfricaTalking('+2349075915873', 'Your registrati...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\AuthController->processUserRegistration()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-17 20:43:14 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "{0}". in /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-17 20:45:41 --> Trying to get property 'status' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/BaseController.php(979): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 979, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/AuthController.php(377): App\Controllers\BaseController->sendOutSmsWithAfricaTalking('+2349075915873', 'Your registrati...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\AuthController->processUserRegistration()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-17 20:45:41 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "{0}". in /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-17 23:30:10 --> Trying to get property 'status' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/DashboardController.php(800): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 800, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\DashboardController->payWithFlutterwaveFSI()
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-17 23:30:10 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "{0}". in /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-17 23:34:22 --> Trying to get property 'status' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/DashboardController.php(800): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 800, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\DashboardController->payWithFlutterwaveFSI()
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-17 23:34:22 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "{0}". in /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-17 23:35:31 --> Trying to get property 'status' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/DashboardController.php(800): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 800, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\DashboardController->payWithFlutterwaveFSI()
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-17 23:35:31 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "{0}". in /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-17 23:36:22 --> Trying to get property 'status' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/PaymentController.php(269): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 269, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/PaymentController.php(226): App\Controllers\PaymentController->validateWithFlutterwaveFSI(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\PaymentController->recordTransactionPaymentInformation()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-17 23:36:22 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "{0}". in /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-17 23:38:20 --> Trying to get property 'status' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/PaymentController.php(269): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 269, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/PaymentController.php(226): App\Controllers\PaymentController->validateWithFlutterwaveFSI(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\PaymentController->recordTransactionPaymentInformation()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-17 23:38:20 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "{0}". in /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-17 23:40:10 --> Trying to get property 'status' of non-object
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/PaymentController.php(269): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/X...', 269, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/PaymentController.php(226): App\Controllers\PaymentController->validateWithFlutterwaveFSI(NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\PaymentController->recordTransactionPaymentInformation()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-17 23:40:10 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "{0}". in /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

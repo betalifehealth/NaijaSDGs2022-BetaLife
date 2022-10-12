@@ -1,0 +1,26 @@
+ERROR - 2022-08-01 09:24:51 --> Column 'deleted_at' in where clause is ambiguous
+CRITICAL - 2022-08-01 09:24:51 --> Column 'deleted_at' in where clause is ambiguous
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/HospitalModel.php(546): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/DashboardController.php(48): App\Models\HospitalModel->getBloodBanksHospitalHasDoneWithBusinessWith('1')
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\DashboardController->index()
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-01 09:25:24 --> Duplicate column name 'id'
+CRITICAL - 2022-08-01 09:25:24 --> Duplicate column name 'id'
+#0 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/Database/BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Models/HospitalModel.php(546): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /Applications/XAMPP/xamppfiles/htdocs/webapp/app/Controllers/DashboardController.php(48): App\Models\HospitalModel->getBloodBanksHospitalHasDoneWithBusinessWith('1')
+#6 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(832): App\Controllers\DashboardController->index()
+#7 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/webapp/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/webapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
